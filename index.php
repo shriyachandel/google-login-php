@@ -19,5 +19,6 @@ if (isset($_GET['code'])) {
   echo "<a href='".$client->createAuthUrl()."'>Google Login</a>";
 }
 
-
+$app_id = 'YOUR_APP_ID';
+$app_secret = 'YOUR_APP_SECRET';
 ?>
