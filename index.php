@@ -16,7 +16,7 @@ if (isset($_GET['code'])) {
   
   // now you can use this profile info to create account in your website and make user logged in.
 } else {
-  echo "<a href='".$client->createAuthUrl()."'>Google Login</a>";
+  echo "<a href='".$client->createAuthUrl()."'>Google Login</a>"; 
 }
 
 // $app_id = 'YOUR_APP_ID';
