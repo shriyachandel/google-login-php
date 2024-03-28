@@ -21,4 +21,7 @@ if (isset($_GET['code'])) {
 
 $app_id = 'YOUR_APP_ID';
 $app_secret = 'YOUR_APP_SECRET';
+
 ?>
+<script src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v13.0&appId=YOUR_APP_ID&autoLogApp=true" async defer></script>
+<button id="facebook-login-button">Login with Facebook</button>
